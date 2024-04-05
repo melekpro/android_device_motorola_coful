@@ -1,0 +1,8 @@
+[
+  {
+    "remote": "TeamWin",
+    "repository": "android_device_motorola_coful",
+    "target_path": "device/motorola/coful",
+    "branch": "android-12.1"
+  }
+]
