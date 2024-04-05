@@ -1,9 +1,12 @@
-//
-// Copyright (C) 2024 The Android Open Source Project
-// Copyright (C) 2024 SebaUbuntu's TWRP device tree generator
-//
-// SPDX-License-Identifier: Apache-2.0
-//
-
-soong_namespace {
+cc_binary {
+    name: "mtk_plpath_utils",
+    srcs:  ["mtk_plpath_utils.cpp"],
+    recovery_available: true,
+    static_libs: [
+        "libfs_mgr"
+    ],
+    shared_libs: [
+        "libbase",
+        "liblog",
+    ]
 }
