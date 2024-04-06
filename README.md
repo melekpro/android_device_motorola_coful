@@ -1,4 +1,5 @@
 Device spefication
+
 Basic	Spec Sheet
 OS	Android 12
 CPU	Octa-core (2x2.0 GHz Cortex-A75 & 6x1.8 GHz Cortex-A55)
